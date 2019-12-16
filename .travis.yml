@@ -1,0 +1,8 @@
+sudo: required
+dist: trusty
+language: python
+env:
+  - TEST_MODE=run_program
+python:
+  - "3.6"
+script: sh run.sh
