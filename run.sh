@@ -7,4 +7,4 @@ pip install coverage==5.0
 pip install -e ./app
 pip install -e ./plugin
 
-coverage run --source=/tmp/testcov/app,/tmp/testcov/plugin app/testcov/main.py
+coverage run --source=$(pwd)/app,$(pwd)/plugin app/testcov/main.py
